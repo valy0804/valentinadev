@@ -101,4 +101,5 @@ p {
   flex: 2;
   flex-wrap: wrap;
   font-size: 15px;
+  padding-left: 10px;
 }
