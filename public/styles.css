@@ -79,10 +79,14 @@ p {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
-
-.img-container {
+.projects-wrapper {
   display: flex;
-  justify-content: flex-column;
+  flex-direction: column;
+}
+  
+.project {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 10px;
@@ -92,7 +96,9 @@ p {
   width: 300px;
   height: 220px;
 }
-.projects-wrapper {
-  display: flex;
-  justify-content: space-between;
-  
+
+.project-description {
+  flex: 2;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
